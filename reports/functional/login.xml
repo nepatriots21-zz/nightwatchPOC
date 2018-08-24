@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="functional.login"
+    errors="1" failures="0" hostname="" id="" package="functional" skipped="0"
+    tests="1" time="0.007000" timestamp="Tue, 31 Jul 2018 13:54:39 GMT">
+  
+    <testcase name="Login" classname="functional.login" time="0.007000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Functional / Login / Login]:
+
+  TypeError: browser.url(...).assert.title(...).verify.containsText(...).setValue(...).setValue(...).assert.text is not a function
+    at Object.Login (/home/chyde/Dev/communicatorNightwatch/tests/functional/login.js:16:21)
+    at Module.call (/home/chyde/.nvm/versions/node/v9.2.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /home/chyde/.nvm/versions/node/v9.2.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/home/chyde/.nvm/versions/node/v9.2.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/home/chyde/.nvm/versions/node/v9.2.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/home/chyde/.nvm/versions/node/v9.2.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /home/chyde/.nvm/versions/node/v9.2.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/home/chyde/.nvm/versions/node/v9.2.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/home/chyde/.nvm/versions/node/v9.2.1/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

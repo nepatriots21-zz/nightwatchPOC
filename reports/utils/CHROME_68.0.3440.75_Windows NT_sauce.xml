@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="0">
+
+  <testsuite name="utils.sauce"
+    errors="0" failures="0" hostname="" id="" package="utils" skipped="0"
+    tests="0" time="0.000" timestamp="Fri, 24 Aug 2018 15:04:46 GMT">
+  
+
+  
+    <system-err>
+      ERROR: Unable to locate element: &#34;.mainContent-header-name&#34; using: css selector
+    at F.command (/home/chyde/.nvm/versions/node/v9.2.1/lib/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/home/chyde/.nvm/versions/node/v9.2.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._executeCommand (/home/chyde/.nvm/versions/node/v9.2.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/home/chyde/.nvm/versions/node/v9.2.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/home/chyde/.nvm/versions/node/v9.2.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/home/chyde/.nvm/versions/node/v9.2.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/home/chyde/.nvm/versions/node/v9.2.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/home/chyde/.nvm/versions/node/v9.2.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/home/chyde/.nvm/versions/node/v9.2.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.walkUp (/home/chyde/.nvm/versions/node/v9.2.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

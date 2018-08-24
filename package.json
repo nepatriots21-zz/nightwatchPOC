@@ -1,0 +1,17 @@
+{
+  "name": "communicatornightwatch",
+  "version": "1.0.0",
+  "description": "Communicator UI Automation with NightwatchJS",
+  "main": "nightwatch.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "nightwatch": "^0.9.20"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Chris Hyde"
+}
